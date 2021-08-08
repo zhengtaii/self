@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="refresh" content="0;url=http://mepopeidia.com" /> 
+    <head>
+        <script>
+            var SurveyList = ['https://www.surveycake.com/s/Don6z', 
+                              'https://www.surveycake.com/s/wMOKr',
+                              'https://www.surveycake.com/s/KbZ7W',
+                              'https://www.surveycake.com/s/xBbWy',
+                              'https://www.surveycake.com/s/94oxO',
+                              'https://www.surveycake.com/s/OyebQ',
+                              'https://www.surveycake.com/s/bZQnw'
+                             ];
+
+            var num = getRandom(SurveyList.length);
+
+            location.href=SurveyList[num];
+
+            function getRandom(x) { 
+                return Math.floor(Math.random() * x);
+            };
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
